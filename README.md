@@ -1,34 +1,68 @@
-# Tkinter Calculator
+# 🖩 Tkinter Calculator
 
-## Overview
-This project is a basic calculator application built with Python's Tkinter library. The calculator features a graphical user interface (GUI) where users can perform simple arithmetic operations: addition, subtraction, multiplication, and division.
+A modern, minimal calculator built with Python’s Tkinter library.  
+Features a sleek black theme, white text, responsive layout, and supports all basic arithmetic operations.
 
-## Features
-- **User-friendly GUI** with buttons for digits (0-9) and operations (+, -, ×, ÷)
-- **Entry widget** to display input and results
-- **Clear** button to reset the input
-- **Equals** button to compute the result
+---
 
-## How It Works
-- The main window (`root`) is created using Tkinter.
-- An Entry widget (`e`) displays numbers and results.
-- Number and operation buttons are arranged in a grid layout.
-- When a number button is pressed, it appends the digit to the entry.
-- When an operation button is pressed, it stores the current number and the operation.
-- Pressing "=" computes the result using the selected operation.
-- "Clear" resets the entry box for new calculations.
+## ✨ Features
 
-## Usage
-1. Run the Python script.
-2. Enter numbers by clicking the digit buttons.
-3. Choose an operation (+, -, ×, ÷).
-4. Enter the next number.
-5. Click "=" to see the result.
-6. Use "Clear" to reset and start over.
+- **Basic operations:** Addition, subtraction, multiplication, division
+- **Decimal support**
+- **Clear (`Clear`) button**
+- **Responsive layout:** Buttons and display scale with window size
+- **Modern look:** Black background with white text
+- **Error handling:** Graceful handling of division by zero and invalid input
 
-## Requirements
+---
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
 - Python 3.x
-- Tkinter (usually included with Python)
 
-## How to Run
-Save the code in a `.py` file and execute:
+### Installation
+
+1. **Clone this repository** or download the code.
+2. Save the script as `CalculatorApp.py` (or any name you like).
+
+---
+
+## 🔢 Button Layout
+
+- Buttons are arranged in a familiar calculator layout using Tkinter’s `grid`.
+- The `=` button is tall and easy to press (spans two rows).
+- The display and all buttons expand to fill available space.
+
+---
+
+## 🗺️ Grid Configuration
+
+- Ensures all rows and columns expand equally when resizing.
+
+---
+
+## 🧩 Customization
+
+- **Change colors:** Edit the `bg` and `fg` values in `btn_params` for different themes.
+- **Add more operations:** Extend the logic in the button functions for advanced calculations.
+- **Change fonts or button sizes:** Adjust the `font` and `padx`/`pady` in `btn_params`.
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
+
+---
+
+## 🙏 Acknowledgements
+
+- Built with Python and Tkinter
+- Inspired by standard calculator layouts
+
+---
+
+**Enjoy your modern, minimal Tkinter calculator!**
